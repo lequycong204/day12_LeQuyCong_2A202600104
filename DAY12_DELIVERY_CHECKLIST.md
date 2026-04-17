@@ -349,3 +349,7 @@ Qua Day 12, em rút ra các ý chính:
 3. Railway, Render và Cloud Run có cách cấu hình deployment khác nhau, không dùng chung trực tiếp.
 4. Bảo mật API không chỉ là authentication mà còn cần rate limiting và cost guard.
 5. Muốn scale ổn định thì phải có health checks, graceful shutdown và kiến trúc stateless.
+
+![alt text](figure/ci_cd.png)
+
+![alt text](figure/deploy.png)
