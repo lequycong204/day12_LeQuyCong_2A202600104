@@ -1,7 +1,12 @@
 from __future__ import annotations
 
+import sys
+from pathlib import Path
+
 import streamlit as st
 from openai import OpenAI
+
+sys.path.append(str(Path(__file__).resolve().parent))
 
 from src.auth import build_demo_users, create_access_token, decode_token, verify_password
 from src.config import AppConfig, load_config
